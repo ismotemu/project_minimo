@@ -1,0 +1,260 @@
+/*font-family: 'Playfair Display', serif;*/
+/*font-family: 'Ubuntu', sans-serif;*/
+/*font-family: 'Inconsolata', monospace;*/
+body{
+	margin:0;
+	padding:0;
+	font-family: 'Playfair Display', serif;
+	color:#626262;
+}
+/*header start*/
+header{
+	padding:20px 0;
+}
+.container{
+	width:90%;
+	margin:0 auto;
+	overflow: hidden; 
+}
+.logo{
+	width:12%;
+	float:left;
+	margin-top: 10px;
+}
+.logo img{
+	width:100%;
+}
+.menu{
+	width:65%;
+	float: right;
+	font-size: 14px;
+}
+.menu ul{
+	float:right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	text-decoration: none;
+	float: left;
+	display: inline-block;
+	margin: 0px 50px;
+	color:#626262;
+	border:1px solid transparent;
+	transition:1.3s;
+	transition-timing-function: ease-out;
+}
+.menu ul li:last child a{
+	margin-right: 0;
+}
+.menu ul li a:hover{
+	color: #000000;
+	border-bottom: 1px solid #000000;
+}
+/*header end*/
+/*banner start*/
+.banner{}
+.b_img{
+}
+.b_img img{
+	width:100%;
+}
+/*banner end*/
+/*get way start*/
+.getway{
+	padding:70px 0;
+}
+.container2{
+	width:80%;
+	margin:0 auto;
+}
+.g_contant{}
+.light{
+	font-family:'Ubuntu', sans-serif;
+	font-size:14px;
+	font-weight: 300;
+	color:#b4ad9e;
+	margin: 0;
+}
+.c_title{
+	font-size:30px;
+	font-weight:400;
+	margin:25px 0 30px;
+
+}
+.c_p{
+	line-height:20px;
+	word-spacing: 1px;
+	margin-top: 0;
+	margin-bottom: 45px;
+}
+/*get way start*/
+/*newsletter start*/
+.newsletter{
+	background-color:#f0f0f0;
+    padding:70px 0;
+}
+.container3{
+	/*border:1px solid green;*/
+}
+.nl_content{
+	text-align:center;
+}
+.nl_content h1{
+	font-family:'Playfair Display', serif;
+	font-size:30px;
+	font-weight:400;
+	color:#333333;
+	margin:0 0 50px 0;
+}
+.n_form{
+	/*border:1px solid blue;*/
+	width:400px;
+    position:relative;
+    margin: 0 auto;
+}
+.n_form input{
+	font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    color: #626262;
+    width: 350px;
+    height: 45px;
+    border: none;
+    border-bottom: 1px solid #000000;
+    background-color: transparent;
+    padding: 0 45px 0 5px;
+}
+.n_form input:focus{
+    outline:0;
+}
+.n_form button{
+	position: absolute;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    top: 15px;
+    right: 0px;
+}
+.n_form button:focus{
+	outline:0;
+}
+.n_form button img{}
+
+/*newsletter end*/
+/*blog start*/
+.blog{
+	padding:70px 0;
+}
+.b_contant{
+	overflow:hidden;
+}
+.single{
+	width:47%;
+	float:left;
+}
+.single:nth-child(even){
+	margin-left: 6%
+
+}
+.single img{
+	width:100%;
+	margin-bottom: 25px;
+}
+.mb_remove{
+	margin-bottom: 0;
+}
+/*blog end*/
+/*button start*/
+.load button{
+	width: 165px;
+	height: 70px;
+	background-color: white;
+	border: 1PX solid #626262;
+	margin: 168px 0 186px 0;
+	font-family: 'Playfair Display', serif;
+	font-size: 20PX;
+	color: #626262;
+	cursor:pointer;
+	transition:.3s;
+	transition-timing-function: ease-out;
+
+}
+.load button:hover{
+	background-color: #626262;
+	color: white;
+}
+/*button end*/
+/*footer start*/
+footer{
+	overflow: 	hidden;	
+	padding:25px 0 25px 0 ;
+	background-color:#f0f0f0;
+}
+.terms{
+	width:25%;
+	float:left;
+
+}
+.terms ul{
+
+	float: left;
+}
+.terms ul li{
+	list-style: none;
+	float: left;
+}
+.terms ul li a{
+	font-size: 14px;
+	font-family: 'Playfair Display', serif;
+	color:#000000;
+	text-decoration: none;
+	padding-right: 18px;
+
+}
+.terms ul li:last-child a{
+	padding-right:0;
+}
+.terms ul li a:hover{
+	text-decoration: underline;
+	transition: 1s;
+	transition-timing-function: ease-out;
+}
+
+}
+.follow{
+	width:25%;
+	float:right;
+}
+.follow ul{
+
+	float: right;
+}
+.follow ul li{
+	list-style: none;
+	float: left;
+}
+.follow ul li a{
+	text-decoration: none;
+	color:#000000;
+}
+.f_style{
+	font-size: 14px;
+	font-family: 'Playfair Display', serif;
+	padding-right: 18px;
+}
+.follow ul li a:hover{
+	text-decoration: underline;
+	transition: 1s;
+	transition-timing-function: ease-out;
+}
+.follow ul li img{
+	padding-right: 18px;
+	cursor: pointer;	
+}
+.follow ul li:last-child img{
+	padding-right:0;
+}
+
+/*footer end*/
